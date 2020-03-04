@@ -1,0 +1,110 @@
+2020-02-20 18:10:44.964 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1504 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 18:10:44.966 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 18:10:46.176 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 18:10:46.177 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 18:10:46.177 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 18:10:46.292 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 18:10:46.755 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 18:10:46.835 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 18:10:47.403 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 18:10:47.436 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 2.82 seconds (JVM running for 3.58)
+2020-02-20 18:13:54.789 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:08:09.758 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1705 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:08:09.761 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:08:11.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:08:11.029 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:08:11.030 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:08:11.135 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:08:11.548 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:08:11.624 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:08:12.061 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:08:12.089 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 2.715 seconds (JVM running for 3.537)
+2020-02-20 19:08:29.107 [http-nio-80-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 19:09:18.043 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:10:05.591 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1717 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:10:05.593 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:10:06.569 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:10:06.569 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:10:06.569 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:10:06.626 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:10:06.960 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:10:07.029 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:10:07.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:10:07.374 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 2.039 seconds (JVM running for 2.649)
+2020-02-20 19:11:18.114 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 19:12:11.080 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:12:22.845 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1724 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:12:22.847 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:12:23.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:12:23.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:12:23.770 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:12:23.842 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:12:24.174 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:12:24.229 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:12:24.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:12:24.571 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 1.967 seconds (JVM running for 2.473)
+2020-02-20 19:12:28.308 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 19:18:36.765 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:18:40.974 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1775 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:18:40.976 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:18:41.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:18:41.830 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:18:41.830 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:18:41.898 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:18:42.223 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:18:42.279 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:18:42.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:18:42.619 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 1.896 seconds (JVM running for 2.555)
+2020-02-20 19:18:51.380 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 19:25:59.970 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:26:03.597 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1784 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:26:03.599 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:26:04.469 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:26:04.470 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:26:04.471 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:26:04.548 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:26:04.935 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:26:04.993 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:26:05.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:26:05.342 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 1.989 seconds (JVM running for 2.618)
+2020-02-20 19:26:40.011 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 19:31:28.868 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:31:31.731 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1799 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:31:31.733 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:31:32.648 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:31:32.649 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:31:32.649 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:31:32.742 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:31:33.090 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:31:33.145 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:31:33.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:31:33.487 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 2.026 seconds (JVM running for 2.568)
+2020-02-20 19:31:50.357 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 19:47:44.965 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-02-20 19:50:33.734 [main] INFO  com.quan.crud.CrudApplication - Starting CrudApplication on XiaoQuandeMacBook-Pro.local with PID 1847 (/Users/xiaoquan/IdeaProjects/CrudDemo/target/classes started by xiaoquan in /Users/xiaoquan/IdeaProjects/CrudDemo)
+2020-02-20 19:50:33.736 [main] INFO  com.quan.crud.CrudApplication - No active profile set, falling back to default profiles: default
+2020-02-20 19:50:34.969 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-02-20 19:50:34.970 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-20 19:50:34.970 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-20 19:50:35.079 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring embedded WebApplicationContext
+2020-02-20 19:50:35.533 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-02-20 19:50:35.605 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-02-20 19:50:36.095 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-02-20 19:50:36.129 [main] INFO  com.quan.crud.CrudApplication - Started CrudApplication in 2.718 seconds (JVM running for 3.47)
+2020-02-20 20:27:40.932 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/crud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-20 20:27:42.209 [http-nio-80-exec-1] INFO  com.quan.crud.controller.user.UserController - vcode为2345
+2020-02-20 20:27:42.209 [http-nio-80-exec-2] INFO  com.quan.crud.controller.user.UserController - vcode为5722
+2020-02-20 20:27:50.499 [http-nio-80-exec-3] INFO  com.quan.crud.controller.user.UserController - vcode为3938
+2020-02-20 20:27:51.297 [http-nio-80-exec-4] INFO  com.quan.crud.controller.user.UserController - vcode为9952
+2020-02-20 20:27:51.670 [http-nio-80-exec-5] INFO  com.quan.crud.controller.user.UserController - vcode为1873
+2020-02-20 20:27:52.146 [http-nio-80-exec-6] INFO  com.quan.crud.controller.user.UserController - vcode为7053
+2020-02-20 20:27:52.519 [http-nio-80-exec-7] INFO  com.quan.crud.controller.user.UserController - vcode为4222
+2020-02-20 20:27:52.958 [http-nio-80-exec-8] INFO  com.quan.crud.controller.user.UserController - vcode为6073
+2020-02-20 20:27:53.369 [http-nio-80-exec-9] INFO  com.quan.crud.controller.user.UserController - vcode为9247
+2020-02-20 20:27:53.923 [http-nio-80-exec-10] INFO  com.quan.crud.controller.user.UserController - vcode为8433
+2020-02-20 20:27:54.730 [http-nio-80-exec-2] INFO  com.quan.crud.controller.user.UserController - vcode为3360
+2020-02-20 20:27:57.992 [http-nio-80-exec-1] INFO  com.quan.crud.controller.user.UserController - vcode为5291
+2020-02-20 20:28:02.678 [http-nio-80-exec-3] INFO  com.quan.crud.controller.user.UserController - vcode为7456
+2020-02-20 20:29:46.363 [http-nio-80-exec-2] INFO  com.quan.crud.controller.user.UserController - vcode为5273
+2020-02-20 20:30:00.775 [http-nio-80-exec-3] INFO  com.quan.crud.controller.user.UserController - vcode为7492
+2020-02-20 20:30:27.493 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

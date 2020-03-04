@@ -1,0 +1,916 @@
+[INFO] [10:59:15.897] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [10:59:43.970] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:00:06.312] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:238 --> jar lib path: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib
+[INFO] [11:00:06.312] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-beanutils-1.9.2.jar
+[INFO] [11:00:06.313] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-collections-3.2.1.jar
+[INFO] [11:00:06.313] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-io-2.5.jar
+[INFO] [11:00:06.313] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-lang3-3.4.jar
+[INFO] [11:00:06.313] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-logging-1.1.1.jar
+[INFO] [11:00:06.313] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\fastjson-1.2.7.jar
+[INFO] [11:00:06.314] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\hamcrest-core-1.3.jar
+[INFO] [11:00:06.314] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\jsch-0.1.54.jar
+[INFO] [11:00:06.314] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\junit-4.12.jar
+[INFO] [11:00:06.314] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\logback-classic-1.1.2.jar
+[INFO] [11:00:06.314] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\logback-core-1.1.2.jar
+[INFO] [11:00:06.315] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mybatis-generator-core-1.3.6.jar
+[INFO] [11:00:06.315] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mybatis-generator-lombok-plugin-1.0.jar
+[INFO] [11:00:06.315] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-5.1.38.jar
+[INFO] [11:00:06.315] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:00:06.316] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\ojdbc6.jar
+[INFO] [11:00:06.316] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\postgresql-9.4.1209.jar
+[INFO] [11:00:06.316] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\slf4j-api-1.7.25.jar
+[INFO] [11:00:06.316] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\sqlite-jdbc-3.19.3.jar
+[INFO] [11:00:06.316] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\sqlite-jdbc-3.8.11.2.jar
+[INFO] [11:00:06.317] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\sqljdbc4-4.0.jar
+[INFO] [11:00:06.390] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:222 --> load driver class: com.mysql.cj.jdbc.Driver@42082b8d
+[INFO] [11:00:06.391] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://127.0.0.1:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[ERROR] [11:00:07.674] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7:206 --> Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172) ~[na:na]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230) ~[na:na]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226) ~[na:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:132) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:140) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7(MainUIController.java:191) ~[mybatis-generator-gui.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_131]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:92) ~[na:na]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852) ~[na:na]
+	... 43 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:173) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:66) ~[na:na]
+	... 46 common frames omitted
+[INFO] [11:00:38.736] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:00:39.204] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:00:40.640] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[ERROR] [11:00:41.708] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7:206 --> Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172) ~[na:na]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230) ~[na:na]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226) ~[na:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:132) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:140) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7(MainUIController.java:191) ~[mybatis-generator-gui.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_131]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:563) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:514) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:401) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1409) ~[na:na]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852) ~[na:na]
+	... 43 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107) ~[na:na]
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150) ~[na:na]
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180) ~[na:na]
+	at java.io.FilterInputStream.read(FilterInputStream.java:133) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64) ~[na:na]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63) ~[na:na]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:557) ~[na:na]
+	... 49 common frames omitted
+[INFO] [11:00:47.032] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:00:47.330] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:133 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@16b88c9b
+[INFO] [11:00:49.272] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:00:49.344] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:00:50.236] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:00:50.445] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:133 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@4821c015
+[INFO] [11:01:25.038] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:01:25.039] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getTableColumns:182 --> getTableColumns, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:01:25.040] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:01:25.251] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:133 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@5585a425
+[INFO] [11:02:52.925] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.saveGeneratorConfig:365 --> user choose name: 通用
+[INFO] [11:02:52.926] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:02:52.927] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.deleteGeneratorConfig:204 --> sql: DELETE FROM generator_config where name='通用'
+[INFO] [11:02:52.928] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:03:29.496] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:03:29.497] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:03:29.499] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:03:38.228] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:03:38.228] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:03:38.229] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:03:49.487] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:03:49.487] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:03:49.488] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:03:49.732] [JavaFX Application Thread] [] org.mybatis.generator.logging.LogFactory.setImplementation:105 --> Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@65790c83' adapter.
+[DEBUG] [11:03:49.733] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.assets"
+[DEBUG] [11:03:49.790] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.790] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_no", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.791] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "name", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.791] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "num", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.792] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "unit", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.792] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "in_date", data type 91, in table "efms..assets"
+[DEBUG] [11:03:49.793] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "keep_site", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.793] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "use_site", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.793] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "factory", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.794] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "create_date", data type 91, in table "efms..assets"
+[DEBUG] [11:03:49.795] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "years", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.795] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "price", data type 8, in table "efms..assets"
+[DEBUG] [11:03:49.795] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "kind_id", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.796] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "kind_name", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.796] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "consumables", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.796] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "status", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.797] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "cperson", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.797] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.797] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_personid", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.797] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_person", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.798] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_time", data type 93, in table "efms..assets"
+[DEBUG] [11:03:49.798] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_personid", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.798] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_person", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.798] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_time", data type 93, in table "efms..assets"
+[DEBUG] [11:03:49.799] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person_id", data type 4, in table "efms..assets"
+[DEBUG] [11:03:49.799] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person", data type 12, in table "efms..assets"
+[DEBUG] [11:03:49.799] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_time", data type 93, in table "efms..assets"
+[INFO] [11:04:35.334] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:04:35.335] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:04:35.335] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:04:42.053] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:04:42.054] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:04:42.055] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:04:46.687] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:04:46.688] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:04:46.688] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:04:46.962] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.assets_detail"
+[DEBUG] [11:04:47.028] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..assets_detail"
+[DEBUG] [11:04:47.029] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..assets_detail"
+[DEBUG] [11:04:47.029] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "berfor_site", data type 12, in table "efms..assets_detail"
+[DEBUG] [11:04:47.030] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "use_site", data type 12, in table "efms..assets_detail"
+[DEBUG] [11:04:47.030] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "user_person", data type 12, in table "efms..assets_detail"
+[DEBUG] [11:04:47.030] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "user_personis", data type 4, in table "efms..assets_detail"
+[DEBUG] [11:04:47.031] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "berfor_status", data type 4, in table "efms..assets_detail"
+[DEBUG] [11:04:47.031] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "after_status", data type 4, in table "efms..assets_detail"
+[DEBUG] [11:04:47.032] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 12, in table "efms..assets_detail"
+[DEBUG] [11:04:47.032] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "use_time", data type 91, in table "efms..assets_detail"
+[INFO] [11:05:34.126] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:05:34.127] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:05:34.128] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:05:40.436] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:05:40.437] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:05:40.437] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:05:44.901] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:05:44.902] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:05:44.902] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:05:45.131] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.collar_use"
+[DEBUG] [11:05:45.186] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..collar_use"
+[DEBUG] [11:05:45.187] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "collar_use_no", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.187] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "department_id", data type 4, in table "efms..collar_use"
+[DEBUG] [11:05:45.188] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "department_name", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.188] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "collar_user_time", data type 93, in table "efms..collar_use"
+[DEBUG] [11:05:45.188] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "operator", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.189] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "
+
+leader", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.189] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.190] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_personid", data type 4, in table "efms..collar_use"
+[DEBUG] [11:05:45.190] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_person", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.190] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_time", data type 93, in table "efms..collar_use"
+[DEBUG] [11:05:45.190] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_personid", data type 4, in table "efms..collar_use"
+[DEBUG] [11:05:45.191] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_person", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.191] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_time", data type 93, in table "efms..collar_use"
+[DEBUG] [11:05:45.191] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person_id", data type 4, in table "efms..collar_use"
+[DEBUG] [11:05:45.192] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person", data type 12, in table "efms..collar_use"
+[DEBUG] [11:05:45.192] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_time", data type 93, in table "efms..collar_use"
+[INFO] [11:06:02.851] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:06:02.851] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:06:02.852] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:06:03.118] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.collar_use_assets"
+[DEBUG] [11:06:03.182] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.183] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "collar_use_id", data type 4, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.183] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.183] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.184] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.184] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.184] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..collar_use_assets"
+[DEBUG] [11:06:03.184] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "
+purpose", data type 12, in table "efms..collar_use_assets"
+[INFO] [11:06:44.325] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:06:44.326] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:06:44.326] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:06:47.920] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:06:47.920] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:06:47.921] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:06:51.986] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:06:51.986] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:06:51.987] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:06:56.088] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:06:56.088] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:06:56.088] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:07:14.660] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:07:14.661] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:07:14.661] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:07:14.934] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.out_assets"
+[DEBUG] [11:07:14.999] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..out_assets"
+[DEBUG] [11:07:14.999] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "borrow_no", data type 12, in table "efms..out_assets"
+[DEBUG] [11:07:14.999] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "in_company", data type 12, in table "efms..out_assets"
+[DEBUG] [11:07:15.000] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "out_person", data type 12, in table "efms..out_assets"
+[DEBUG] [11:07:15.000] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "out_time", data type 93, in table "efms..out_assets"
+[DEBUG] [11:07:15.000] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 4, in table "efms..out_assets"
+[DEBUG] [11:07:15.000] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "price", data type 8, in table "efms..out_assets"
+[DEBUG] [11:07:15.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..out_assets"
+[DEBUG] [11:07:15.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..out_assets"
+[INFO] [11:07:26.618] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:07:26.619] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:07:26.619] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:07:26.883] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.out_assets_detail"
+[DEBUG] [11:07:26.950] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.950] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "out_assets_id", data type 4, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.951] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.951] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.951] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.951] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.952] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.952] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "purpose", data type 12, in table "efms..out_assets_detail"
+[DEBUG] [11:07:26.952] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "rent", data type 8, in table "efms..out_assets_detail"
+[INFO] [11:08:06.914] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:08:06.916] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:08:06.916] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:08:10.770] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:08:10.770] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:08:10.771] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:08:14.860] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:08:14.861] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:08:14.861] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:08:18.949] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:08:18.949] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:08:18.949] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:08:22.799] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:08:22.800] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:08:22.800] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:08:23.072] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.repair"
+[DEBUG] [11:08:23.137] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..repair"
+[DEBUG] [11:08:23.138] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_no", data type 12, in table "efms..repair"
+[DEBUG] [11:08:23.138] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "start_time", data type 93, in table "efms..repair"
+[DEBUG] [11:08:23.138] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "charge_person", data type 12, in table "efms..repair"
+[DEBUG] [11:08:23.138] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_site", data type 12, in table "efms..repair"
+[DEBUG] [11:08:23.139] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_person", data type 12, in table "efms..repair"
+[DEBUG] [11:08:23.139] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "kind", data type 4, in table "efms..repair"
+[DEBUG] [11:08:23.139] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 4, in table "efms..repair"
+[DEBUG] [11:08:23.139] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..repair"
+[DEBUG] [11:08:23.139] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "effect", data type 4, in table "efms..repair"
+[DEBUG] [11:08:23.140] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..repair"
+[INFO] [11:09:09.485] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:09:09.486] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:09:09.487] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:09:13.427] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:09:13.427] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:09:13.428] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:09:16.623] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:09:16.623] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:09:16.624] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:09:19.936] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:09:19.937] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:09:19.937] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:09:20.165] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.repair_acceptance"
+[DEBUG] [11:09:20.221] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.221] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "acceptance_no", data type 12, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.221] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_detail_id", data type 4, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.222] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "in_time", data type 93, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.222] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_id", data type 4, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.222] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type -1, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.222] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_price", data type 8, in table "efms..repair_acceptance"
+[DEBUG] [11:09:20.223] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..repair_acceptance"
+[INFO] [11:10:02.157] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:02.158] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:02.158] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:06.307] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:06.307] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:06.308] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:15.591] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:15.591] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:15.591] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:20.763] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:20.764] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:20.764] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:24.921] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:24.922] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:24.922] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:29.557] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:29.557] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:29.558] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:33.233] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:33.234] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:33.234] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:38.382] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:38.382] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:38.383] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:10:42.043] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:10:42.043] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:10:42.044] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:10:42.274] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.repair_detail"
+[DEBUG] [11:10:42.329] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..repair_detail"
+[DEBUG] [11:10:42.330] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "out_assets_id", data type 4, in table "efms..repair_detail"
+[DEBUG] [11:10:42.330] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..repair_detail"
+[DEBUG] [11:10:42.330] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:10:42.331] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..repair_detail"
+[DEBUG] [11:10:42.331] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:10:42.331] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:10:42.331] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "purpose", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:10:42.332] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "content", data type 12, in table "efms..repair_detail"
+[INFO] [11:11:12.822] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:11:12.822] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:11:12.823] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:11:17.892] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:11:17.892] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:11:17.893] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:11:18.159] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.return_assets"
+[DEBUG] [11:11:18.224] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.224] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "return_no", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.225] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "befor_status", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.225] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.225] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "return_time", data type 93, in table "efms..return_assets"
+[DEBUG] [11:11:18.225] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "user_days", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.225] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "operator", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.226] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "leader", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.226] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.226] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.226] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.226] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "take_effect", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.227] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "approval", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.227] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_personid", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.227] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_person", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.227] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_time", data type 93, in table "efms..return_assets"
+[DEBUG] [11:11:18.228] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_personid", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.228] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_person", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.228] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_time", data type 93, in table "efms..return_assets"
+[DEBUG] [11:11:18.228] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person_id", data type 4, in table "efms..return_assets"
+[DEBUG] [11:11:18.228] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person", data type 12, in table "efms..return_assets"
+[DEBUG] [11:11:18.229] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_time", data type 93, in table "efms..return_assets"
+[INFO] [11:11:27.550] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:11:27.551] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:11:27.551] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:11:27.825] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.return_assets_detail"
+[DEBUG] [11:11:27.960] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..return_assets_detail"
+[DEBUG] [11:11:27.961] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "return_assets_id", data type 4, in table "efms..return_assets_detail"
+[DEBUG] [11:11:27.961] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..return_assets_detail"
+[DEBUG] [11:11:27.961] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..return_assets_detail"
+[DEBUG] [11:11:27.962] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..return_assets_detail"
+[DEBUG] [11:11:27.962] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..return_assets_detail"
+[DEBUG] [11:11:27.962] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..return_assets_detail"
+[INFO] [11:11:44.278] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:11:44.279] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:11:44.279] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:11:44.550] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.scrap"
+[DEBUG] [11:11:44.614] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..scrap"
+[DEBUG] [11:11:44.614] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..scrap"
+[DEBUG] [11:11:44.615] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..scrap"
+[DEBUG] [11:11:44.615] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_no", data type 12, in table "efms..scrap"
+[DEBUG] [11:11:44.615] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..scrap"
+[DEBUG] [11:11:44.615] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..scrap"
+[DEBUG] [11:11:44.615] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..scrap"
+[DEBUG] [11:11:44.616] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "price", data type 8, in table "efms..scrap"
+[DEBUG] [11:11:44.616] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..scrap"
+[DEBUG] [11:11:44.616] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..scrap"
+[INFO] [11:12:01.246] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:12:01.246] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:12:01.246] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:12:04.489] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:12:04.489] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:12:04.490] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:12:08.528] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:12:08.529] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:12:08.529] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:12:08.806] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.user"
+[DEBUG] [11:12:08.873] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..user"
+[DEBUG] [11:12:08.873] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "account", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.873] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "password", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.874] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "name", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.874] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "phone", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.874] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "email", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.874] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.874] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "isdel", data type 12, in table "efms..user"
+[DEBUG] [11:12:08.875] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "entid", data type 4, in table "efms..user"
+[INFO] [11:17:28.413] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:17:32.907] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:17:32.908] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfigs:182 --> sql: SELECT * FROM generator_config
+[INFO] [11:17:35.388] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:17:35.389] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfig:159 --> sql: SELECT * FROM generator_config where name='通用'
+[INFO] [11:17:39.629] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:238 --> jar lib path: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib
+[INFO] [11:17:39.629] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-beanutils-1.9.2.jar
+[INFO] [11:17:39.630] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-collections-3.2.1.jar
+[INFO] [11:17:39.630] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-io-2.5.jar
+[INFO] [11:17:39.630] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-lang3-3.4.jar
+[INFO] [11:17:39.630] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\commons-logging-1.1.1.jar
+[INFO] [11:17:39.630] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\fastjson-1.2.7.jar
+[INFO] [11:17:39.631] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\hamcrest-core-1.3.jar
+[INFO] [11:17:39.631] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\jsch-0.1.54.jar
+[INFO] [11:17:39.631] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\junit-4.12.jar
+[INFO] [11:17:39.631] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\logback-classic-1.1.2.jar
+[INFO] [11:17:39.632] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\logback-core-1.1.2.jar
+[INFO] [11:17:39.632] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mybatis-generator-core-1.3.6.jar
+[INFO] [11:17:39.632] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mybatis-generator-lombok-plugin-1.0.jar
+[INFO] [11:17:39.632] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-5.1.38.jar
+[INFO] [11:17:39.632] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:17:39.633] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\ojdbc6.jar
+[INFO] [11:17:39.633] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\postgresql-9.4.1209.jar
+[INFO] [11:17:39.633] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\slf4j-api-1.7.25.jar
+[INFO] [11:17:39.633] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\sqlite-jdbc-3.19.3.jar
+[INFO] [11:17:39.633] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\sqlite-jdbc-3.8.11.2.jar
+[INFO] [11:17:39.634] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.getAllJDBCDriverJarPaths:242 --> jar file: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\sqljdbc4-4.0.jar
+[INFO] [11:17:39.640] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:222 --> load driver class: com.mysql.cj.jdbc.Driver@7019a57d
+[INFO] [11:17:39.641] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://127.0.0.1:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[ERROR] [11:17:40.710] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7:206 --> Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172) ~[na:na]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230) ~[na:na]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226) ~[na:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:132) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:140) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7(MainUIController.java:191) ~[mybatis-generator-gui.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_131]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:92) ~[na:na]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852) ~[na:na]
+	... 43 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:173) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:66) ~[na:na]
+	... 46 common frames omitted
+[INFO] [11:17:42.735] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[ERROR] [11:17:43.747] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7:206 --> Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172) ~[na:na]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230) ~[na:na]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226) ~[na:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:132) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:140) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7(MainUIController.java:191) ~[mybatis-generator-gui.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_131]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:563) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:514) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:401) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1409) ~[na:na]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852) ~[na:na]
+	... 43 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107) ~[na:na]
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150) ~[na:na]
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180) ~[na:na]
+	at java.io.FilterInputStream.read(FilterInputStream.java:133) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64) ~[na:na]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63) ~[na:na]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:557) ~[na:na]
+	... 49 common frames omitted
+[INFO] [11:17:45.906] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[ERROR] [11:17:46.909] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7:206 --> Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172) ~[na:na]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230) ~[na:na]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226) ~[na:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:132) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:140) ~[mybatis-generator-gui.jar:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$7(MainUIController.java:191) ~[mybatis-generator-gui.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:381) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:295) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_131]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:417) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_131]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:563) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:514) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:401) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1409) ~[na:na]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982) ~[na:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852) ~[na:na]
+	... 43 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_131]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107) ~[na:na]
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150) ~[na:na]
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180) ~[na:na]
+	at java.io.FilterInputStream.read(FilterInputStream.java:133) ~[na:1.8.0_131]
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64) ~[na:na]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63) ~[na:na]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45) ~[na:na]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:557) ~[na:na]
+	... 49 common frames omitted
+[INFO] [11:17:49.272] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:17:49.507] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:133 --> getConnection, connection url: com.mysql.cj.jdbc.ConnectionImpl@560ff642
+[INFO] [11:18:36.242] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.saveGeneratorConfig:365 --> user choose name: aaa
+[INFO] [11:18:36.243] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:18:36.243] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.deleteGeneratorConfig:204 --> sql: DELETE FROM generator_config where name='aaa'
+[INFO] [11:18:36.244] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\.\config\sqlite3.db
+[INFO] [11:18:41.930] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:18:41.931] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:18:41.933] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:18:45.205] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:18:45.206] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:18:45.206] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:18:48.484] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:18:48.484] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:18:48.485] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:18:52.651] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:18:52.651] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:18:52.652] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:18:52.932] [JavaFX Application Thread] [] org.mybatis.generator.logging.LogFactory.setImplementation:105 --> Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@53b96f45' adapter.
+[DEBUG] [11:18:52.933] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.scrap"
+[DEBUG] [11:18:53.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..scrap"
+[DEBUG] [11:18:53.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..scrap"
+[DEBUG] [11:18:53.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..scrap"
+[DEBUG] [11:18:53.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_no", data type 12, in table "efms..scrap"
+[DEBUG] [11:18:53.001] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..scrap"
+[DEBUG] [11:18:53.003] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..scrap"
+[DEBUG] [11:18:53.003] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..scrap"
+[DEBUG] [11:18:53.003] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "price", data type 8, in table "efms..scrap"
+[DEBUG] [11:18:53.003] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..scrap"
+[DEBUG] [11:18:53.004] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..scrap"
+[DEBUG] [11:18:53.004] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_personid", data type 4, in table "efms..scrap"
+[DEBUG] [11:18:53.004] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_time", data type 93, in table "efms..scrap"
+[DEBUG] [11:18:53.005] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_personid", data type 4, in table "efms..scrap"
+[DEBUG] [11:18:53.005] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_time", data type 93, in table "efms..scrap"
+[DEBUG] [11:18:53.005] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person_id", data type 4, in table "efms..scrap"
+[DEBUG] [11:18:53.006] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_time", data type 93, in table "efms..scrap"
+[INFO] [11:19:23.052] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:19:23.053] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:19:23.053] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:19:26.861] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:19:26.862] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:19:26.862] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:19:27.136] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.revert_assets_detail"
+[DEBUG] [11:19:27.203] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..revert_assets_detail"
+[DEBUG] [11:19:27.203] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "revert_assets_id", data type 4, in table "efms..revert_assets_detail"
+[DEBUG] [11:19:27.203] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..revert_assets_detail"
+[DEBUG] [11:19:27.204] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..revert_assets_detail"
+[DEBUG] [11:19:27.204] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..revert_assets_detail"
+[DEBUG] [11:19:27.204] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..revert_assets_detail"
+[DEBUG] [11:19:27.204] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..revert_assets_detail"
+[INFO] [11:19:37.058] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:19:37.059] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:19:37.059] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:19:37.332] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.revert_assets"
+[DEBUG] [11:19:37.400] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.401] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "revert_no", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.401] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "befor_status", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.401] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.402] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "revert_time", data type 93, in table "efms..revert_assets"
+[DEBUG] [11:19:37.402] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "user_days", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.402] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "operator", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.403] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "leader", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.403] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.403] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.403] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.404] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "take_effect", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.404] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "approval", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.404] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_personid", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.404] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_person", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.405] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_time", data type 93, in table "efms..revert_assets"
+[DEBUG] [11:19:37.405] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_personid", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.405] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_person", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.405] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_time", data type 93, in table "efms..revert_assets"
+[DEBUG] [11:19:37.405] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person_id", data type 4, in table "efms..revert_assets"
+[DEBUG] [11:19:37.406] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person", data type 12, in table "efms..revert_assets"
+[DEBUG] [11:19:37.406] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_time", data type 93, in table "efms..revert_assets"
+[INFO] [11:20:18.578] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:20:18.579] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:20:18.579] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:20:22.304] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:20:22.304] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:20:22.305] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:20:25.851] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:20:25.851] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:20:25.851] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [11:20:31.535] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:20:31.536] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:20:31.536] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:20:32.202] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.repair_detail"
+[DEBUG] [11:20:32.259] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..repair_detail"
+[DEBUG] [11:20:32.259] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "out_assets_id", data type 4, in table "efms..repair_detail"
+[DEBUG] [11:20:32.259] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_id", data type 4, in table "efms..repair_detail"
+[DEBUG] [11:20:32.260] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_name", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:20:32.260] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_num", data type 8, in table "efms..repair_detail"
+[DEBUG] [11:20:32.260] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_unit", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:20:32.261] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "assets_status", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:20:32.261] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "purpose", data type 12, in table "efms..repair_detail"
+[DEBUG] [11:20:32.261] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "content", data type 12, in table "efms..repair_detail"
+[INFO] [11:20:38.464] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:20:38.464] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:20:38.465] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:20:38.715] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.repair_acceptance"
+[DEBUG] [11:20:38.771] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.771] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "acceptance_no", data type 12, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.771] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_detail_id", data type 4, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.772] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "in_time", data type 93, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.772] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_id", data type 4, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.772] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type -1, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.772] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_price", data type 8, in table "efms..repair_acceptance"
+[DEBUG] [11:20:38.772] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..repair_acceptance"
+[INFO] [11:20:44.011] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: jar:file:/D:/git/ahstu-efms/src/main/resources/mybatis-auto-ui/mybatis-generator-gui.jar!/logback.xml
+[INFO] [11:20:44.012] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:66 --> connectorLibPath: D:\git\ahstu-efms\src\main\resources\mybatis-auto-ui\lib\mysql-connector-java-8.0.11.jar
+[INFO] [11:20:44.012] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:208 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://47.101.209.83:3306/efms?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [11:20:44.290] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "efms.repair"
+[DEBUG] [11:20:44.357] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.357] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_no", data type 12, in table "efms..repair"
+[DEBUG] [11:20:44.358] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "start_time", data type 93, in table "efms..repair"
+[DEBUG] [11:20:44.358] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "charge_person", data type 12, in table "efms..repair"
+[DEBUG] [11:20:44.358] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_site", data type 12, in table "efms..repair"
+[DEBUG] [11:20:44.358] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "repair_person", data type 12, in table "efms..repair"
+[DEBUG] [11:20:44.358] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "kind", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.359] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "type", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.359] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "efms..repair"
+[DEBUG] [11:20:44.359] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "effect", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.359] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.360] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_personid", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.360] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "edit_time", data type 93, in table "efms..repair"
+[DEBUG] [11:20:44.360] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_personid", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.360] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "del_time", data type 93, in table "efms..repair"
+[DEBUG] [11:20:44.361] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_person_id", data type 4, in table "efms..repair"
+[DEBUG] [11:20:44.361] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "input_time", data type 93, in table "efms..repair"
