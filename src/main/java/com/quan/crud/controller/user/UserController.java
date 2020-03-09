@@ -5,14 +5,12 @@ import cn.hutool.captcha.LineCaptcha;
 import cn.hutool.captcha.generator.RandomGenerator;
 import com.quan.crud.entity.User;
 import com.quan.crud.service.user.UserService;
+import com.quan.crud.util.JsonWrite;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -51,20 +49,11 @@ public class UserController {
     /**
      * 登陆
      */
-    @RequestMapping("/login")
-    public ModelAndView Login(@ModelAttribute User user,HttpSession session){
-        try{
-            ModelAndView mv = new ModelAndView("index");
-            String msg = userService.getUserByName(user,session);
-            if(msg=="登陆成功!"){
-                return mv;
-            }
-            return null;
-        }catch (Exception e){
-            logger.error("系统错误！");
-            return null;
-        }
+    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    @ResponseBody
+    public JsonWrite Login(@RequestBody User user, HttpSession session){
 
+        return userService.getUserByName(user,session);
     }
 
 }

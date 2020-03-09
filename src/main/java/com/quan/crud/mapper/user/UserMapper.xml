@@ -70,7 +70,7 @@
   </update>
 
   <!--根据用户名查询用户的信息  -->
-  <select id="getUserByName" resultType="User">
+  <select id="getUserByName" resultType="user">
     select Name,Password from User where Name=#{name}
   </select>
 </mapper>

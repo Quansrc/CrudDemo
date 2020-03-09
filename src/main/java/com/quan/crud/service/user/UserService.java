@@ -1,11 +1,11 @@
 package com.quan.crud.service.user;
 
 import com.quan.crud.entity.User;
+import com.quan.crud.util.JsonWrite;
 
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
 
 public interface UserService {
     //更具用户名查询用户信息
-    public String getUserByName(User user, HttpSession session);
+    public JsonWrite getUserByName(User user, HttpSession session);
 }

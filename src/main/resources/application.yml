@@ -1,8 +1,8 @@
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    data-username: root
-    data-password: Quan1314521
+    username: root
+    password: Quan1314521
     url: jdbc:mysql://localhost:3306/cruddemo?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
