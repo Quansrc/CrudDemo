@@ -7,5 +7,7 @@ import javax.servlet.http.HttpSession;
 
 public interface UserService {
     //更具用户名查询用户信息
-    public JsonWrite getUserByName(User user, HttpSession session);
+    JsonWrite getUserByName(User user, HttpSession session);
+//    新增用户
+    JsonWrite addUser(User user);
 }

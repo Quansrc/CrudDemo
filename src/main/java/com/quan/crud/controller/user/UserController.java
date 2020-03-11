@@ -56,4 +56,11 @@ public class UserController {
         return userService.getUserByName(user,session);
     }
 
+    //新增用户
+    @RequestMapping("/addUser")
+    @ResponseBody
+    public JsonWrite addUser(@RequestBody User user){
+        return userService.addUser(user);
+    }
+
 }

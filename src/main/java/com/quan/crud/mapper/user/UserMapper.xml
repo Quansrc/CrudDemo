@@ -73,4 +73,8 @@
   <select id="getUserByName" resultType="user">
     select Name,Password from User where Name=#{name}
   </select>
+  <!-- 新增用户 -->
+  <insert id="addUser" parameterType="user">
+    insert into User (Name,Password) values (#{user.name},#{user.password})
+  </insert>
 </mapper>

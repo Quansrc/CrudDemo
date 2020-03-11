@@ -11,5 +11,8 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserMapper extends MyBatisBaseDao<User, Integer> {
-    public User getUserByName(@Param("name") String name);
+    //根据名称查询用户信息
+    User getUserByName(@Param("name") String name);
+    //新增用户
+    int addUser(@Param("user") User user);
 }
