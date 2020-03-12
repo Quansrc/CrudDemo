@@ -10,4 +10,8 @@ public interface UserService {
     JsonWrite getUserByName(User user, HttpSession session);
 //    新增用户
     JsonWrite addUser(User user);
+//    删除用户
+    JsonWrite deleteUser(int id);
+//    修改用户信息
+    JsonWrite updateUser(User user);
 }

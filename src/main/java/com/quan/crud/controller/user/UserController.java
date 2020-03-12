@@ -63,4 +63,18 @@ public class UserController {
         return userService.addUser(user);
     }
 
+    //删除用户
+    @RequestMapping("/delete/{id}")
+    @ResponseBody
+    public JsonWrite deleteUser(@PathVariable("id") String id){
+        return userService.deleteUser(Integer.parseInt(id));
+    }
+
+    //修改用户
+    @RequestMapping("/update")
+    @ResponseBody
+    public JsonWrite updateUser(@RequestBody User user){
+        return userService.updateUser(user);
+    }
+
 }

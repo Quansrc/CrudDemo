@@ -55,4 +55,18 @@ public class UserServiceImpl implements UserService {
         userMapper.addUser(user);
         return JsonWrite.SUCCESS("创建成功！");
     }
+
+    @Override
+    @Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
+    public JsonWrite deleteUser(int id) {
+        userMapper.deleteUserById(id);
+        return JsonWrite.SUCCESS("删除成功！");
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
+    public JsonWrite updateUser(User user) {
+        userMapper.updateUser(user);
+        return JsonWrite.SUCCESS("修改成功！");
+    }
 }

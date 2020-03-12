@@ -77,4 +77,12 @@
   <insert id="addUser" parameterType="user">
     insert into User (Name,Password) values (#{user.name},#{user.password})
   </insert>
+  <!--  删除用户-->
+  <update id="deleteUserById" parameterType="int">
+    update User set IsDelete=1 where ID=#{id}
+  </update>
+<!--  修改用户信息-->
+  <update id="updateUser" parameterType="user">
+    update User set Name=#{user.name},Password=#{user.password} where ID=#{user.id}
+  </update>
 </mapper>

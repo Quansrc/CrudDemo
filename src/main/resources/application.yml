@@ -32,6 +32,24 @@ spring:
     cache: false
     servlet:
       content-type: text/html
+  #redis
+  redis:
+    #redis数据库索引（默认为0）
+    database: 0
+    #redis服务器地址
+    host: 49.232.137.183
+    #redis端口号
+    port: 6379
+    #redis密码
+    password: kaikaikaikai
+    lettuce:
+      pool:
+        #连接池最大连接数（使用负值表示没有限制）默认为8
+        max-active: 8
+        #连接池最大阻塞等待时间（使用负值表示没有限制）默认为-1
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
 
 server:
   servlet:
@@ -46,4 +64,5 @@ server:
 mybatis:
   type-aliases-package: com.quan.crud.entity
   mapper-locations: classpath:com/quan/crud/entity/**/*.xml
+
 
