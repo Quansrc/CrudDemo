@@ -15,7 +15,28 @@ public class User implements Serializable {
 
     private String vercode;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", vercode='" + vercode + '\'' +
+                ", IsDelete=" + IsDelete +
+                '}';
+    }
+
+    private Integer IsDelete;
+
     private static final long serialVersionUID = 1L;
+
+    public Integer getIsDelete() {
+        return IsDelete;
+    }
+
+    public void setIsDelete(Integer isDelete) {
+        IsDelete = isDelete;
+    }
 
     public Integer getId() {
         return id;
@@ -76,17 +97,4 @@ public class User implements Serializable {
         return result;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", name=").append(name);
-        sb.append(", password=").append(password);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
-    }
 }

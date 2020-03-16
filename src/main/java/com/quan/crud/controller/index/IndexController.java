@@ -9,8 +9,16 @@ public class IndexController {
 
     @RequestMapping("/console")
     public String consoleIndex() {
-        System.out.println("aaaaa");
         return "home/console";
     }
 
+    @RequestMapping("/homepage1")
+    public String homePage1Index(){
+        return "home/homepage1";
+    }
+
+    @RequestMapping("/userlist")
+    public String userList(){
+        return "user/user/userlist";
+    }
 }

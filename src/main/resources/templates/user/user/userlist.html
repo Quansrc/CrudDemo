@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>layuiAdmin 网站用户</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" th:href="@{/layui/css/layui.css}" href="../../../layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" th:href="@{/style/admin.css}" href="../../../layuiadmin/style/admin.css" media="all">
+</head>
+<body>
+
+<table id="userlist" lay-filter="test"></table>
+<div id="userlistpage"></div>
+
+<input type="hidden" th:src="@{/}" id="contextpath">
+<script th:src="@{/javascript/jquery/jQuery-3.4.1.js}"></script>
+<script th:src="@{/layui/layui.js}" src="../../../layuiadmin/layui/layui.js"></script>
+<script th:src="@{/javascript/user/userlist.js}"></script>
+</body>
+</html>

@@ -3,6 +3,8 @@ package com.quan.crud.controller.user;
 import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.LineCaptcha;
 import cn.hutool.captcha.generator.RandomGenerator;
+import com.quan.crud.dto.LayuiPageResult;
+import com.quan.crud.dto.PageHelper;
 import com.quan.crud.entity.User;
 import com.quan.crud.service.user.UserService;
 import com.quan.crud.util.JsonWrite;
@@ -68,13 +70,22 @@ public class UserController {
     @ResponseBody
     public JsonWrite deleteUser(@PathVariable("id") String id){
         return userService.deleteUser(Integer.parseInt(id));
-    }
+     }
 
     //修改用户
-    @RequestMapping("/update")
+    @RequestMapping(value = "/update",method = RequestMethod.GET)
     @ResponseBody
     public JsonWrite updateUser(@RequestBody User user){
         return userService.updateUser(user);
+    }
+
+    @RequestMapping("userlist")
+    @ResponseBody
+    public LayuiPageResult getAllUserPage(PageHelper pageHelper){
+        System.out.println(pageHelper.toString());
+        LayuiPageResult layuiPageResult=userService.getAllUserPage(pageHelper);
+        //System.out.println(layuiPageResult.toString());
+        return layuiPageResult;
     }
 
 }

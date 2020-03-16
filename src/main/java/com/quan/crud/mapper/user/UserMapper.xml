@@ -10,7 +10,7 @@
     ID, `Name`, `Password`
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
+    select
     <include refid="Base_Column_List" />
     from User
     where ID = #{id,jdbcType=INTEGER}
@@ -85,4 +85,15 @@
   <update id="updateUser" parameterType="user">
     update User set Name=#{user.name},Password=#{user.password} where ID=#{user.id}
   </update>
+<!--  分页获取员工数据-->
+  <select id="getAllUserPage" resultType="user">
+    select * from user
+    <if test="order!=null">
+      order by #{order}
+    </if>
+    limit #{start},#{end}
+  </select>
+  <select id="selectUserCount" resultType="int">
+    select Count(*) from user
+  </select>
 </mapper>
