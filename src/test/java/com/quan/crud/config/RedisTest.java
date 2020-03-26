@@ -3,6 +3,7 @@ package com.quan.crud.config;
 import cn.hutool.core.util.PageUtil;
 import com.quan.crud.entity.User;
 import com.quan.crud.mapper.user.UserMapper;
+import com.quan.crud.util.RedisUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,9 +18,13 @@ public class RedisTest {
     private RedisTemplate redisTemplate;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private RedisUtil redisUtil;
+
 
     @Test
     public void redisTest(){
+//        存入redis
         User user =new User();
         user.setName("Quan");
         user.setPassword("123");
@@ -30,6 +35,12 @@ public class RedisTest {
         User getUser = (User) redisTemplate.opsForValue().get("user");
         System.out.println(getUser.toString());
     }
+
+    @Test
+    public void removeTest(){
+        redisUtil.del("user");
+    }
+
 
     @Test
     public void test1(){
