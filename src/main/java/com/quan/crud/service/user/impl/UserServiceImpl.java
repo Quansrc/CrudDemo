@@ -40,6 +40,7 @@ public class UserServiceImpl implements UserService {
             //Assert.assertEquals("5393554e94bf0eb6436f240a4fd71282", md5Hex1);
              */
             if (dbuser.getPassword().equals(DigestUtil.md5Hex(user.getPassword()))) {
+                session.setAttribute("user",dbuser);
                 return JsonWrite.SUCCESS("登陆成功！");
             } else {
                 return JsonWrite.FAILED("密码错误，请重新输入！");

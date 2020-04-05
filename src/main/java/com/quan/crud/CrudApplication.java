@@ -1,10 +1,12 @@
 package com.quan.crud;
 
 import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+@EnableRabbit   //开启基于注解的rabbitmq  @EnableRabbit+@RabbitListener  监听消息队列里的内容
 @MapperScan("com.quan.crud.mapper")
 @SpringBootApplication
 @EnableTransactionManagement
